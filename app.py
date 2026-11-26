@@ -18,17 +18,12 @@ from src.quiz_generator import generate_quiz as create_quiz
 from src.debugger import debug_python_code
 
 
-# ==========================================
-# 1. PAGE CONFIGURATION
-# ==========================================
-
 st.set_page_config(
-    page_title="CodeMentor AI",
+    page_title="CodeMentor AI | AI Programming Tutor",
     page_icon="💻",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 
 # ==========================================
 # 2. PREMIUM CUSTOM CSS
@@ -787,12 +782,13 @@ st.markdown(
 
 st.markdown(
     '<div class="subtitle">'
-    'Your personal AI programming companion — '
-    'Learn concepts, understand code, solve errors, and grow your skills.'
+    'An AI-powered programming tutor for learning Python, Java, C++, '
+    'and other languages using your questions and uploaded PDF/TXT materials. '
+    'Get programming explanations, document-based answers, and quizzes. '
+    'The code explanation and debugging tools currently focus on Python.'
     '</div>',
     unsafe_allow_html=True
 )
-
 st.divider()
 
 
